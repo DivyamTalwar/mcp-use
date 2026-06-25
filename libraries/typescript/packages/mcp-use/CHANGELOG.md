@@ -1,5 +1,78 @@
 # mcp-use
 
+## 1.32.2-canary.8
+
+### Patch Changes
+
+- bf90128: exposed the cwd argument for stdio
+  - @mcp-use/cli@3.5.3-canary.8
+  - @mcp-use/inspector@10.0.2-canary.8
+
+## 1.32.2-canary.7
+
+### Patch Changes
+
+- Updated dependencies [37337f3]
+  - @mcp-use/inspector@10.0.2-canary.7
+  - @mcp-use/cli@3.5.3-canary.7
+
+## 1.32.2-canary.6
+
+### Patch Changes
+
+- Updated dependencies [d639509]
+  - @mcp-use/cli@3.5.3-canary.6
+  - @mcp-use/inspector@10.0.2-canary.6
+
+## 1.32.2-canary.5
+
+### Patch Changes
+
+- Updated dependencies [dfa7562]
+  - @mcp-use/cli@3.5.3-canary.5
+  - @mcp-use/inspector@10.0.2-canary.5
+
+## 1.32.2-canary.4
+
+### Patch Changes
+
+- b9324be: Use the MCP Apps bridge as the primary widget runtime even when `window.openai` is present, while keeping OpenAI extension APIs such as file upload and download available through `useFiles`.
+  - @mcp-use/cli@3.5.3-canary.4
+  - @mcp-use/inspector@10.0.2-canary.4
+
+## 1.32.2-canary.3
+
+### Patch Changes
+
+- Updated dependencies [e1bcc3f]
+  - @mcp-use/inspector@10.0.2-canary.3
+  - @mcp-use/cli@3.5.3-canary.3
+
+## 1.32.2-canary.2
+
+### Patch Changes
+
+- c62e103: Updated dependency `vite` to `^8.0.16`.
+- Updated dependencies [c62e103]
+  - @mcp-use/cli@3.5.3-canary.2
+  - @mcp-use/inspector@10.0.2-canary.2
+
+## 1.32.2-canary.1
+
+### Patch Changes
+
+- Updated dependencies [d962eab]
+  - @mcp-use/cli@3.5.3-canary.1
+  - @mcp-use/inspector@10.0.2-canary.1
+
+## 1.32.2-canary.0
+
+### Patch Changes
+
+- c242a0c: Bump hono from 4.12.23 to 4.12.25.
+  - @mcp-use/cli@3.5.3-canary.0
+  - @mcp-use/inspector@10.0.2-canary.0
+
 ## 1.32.1
 
 ### Patch Changes

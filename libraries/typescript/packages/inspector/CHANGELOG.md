@@ -1,5 +1,75 @@
 # @mcp-use/inspector
 
+## 10.0.2-canary.8
+
+### Patch Changes
+
+- Updated dependencies [bf90128]
+  - mcp-use@1.32.2-canary.8
+
+## 10.0.2-canary.7
+
+### Patch Changes
+
+- 37337f3: fix(inspector): stop prompting signed-in users to log in on the hosted free tier
+
+  The hosted inspector (`inspector.manufact.com`) showed the "You're using
+  Manufact's free tier — Sign in to increase your limits" CTA to every visitor
+  using the managed LLM, even when they were already authenticated (MCP-2142).
+
+  `ChatTab` now resolves the shared Manufact session (via the new
+  `useHostedSession` hook, also used by `HostedUserMenu`) and only renders the
+  free-tier sign-in/upgrade chrome for anonymous visitors. The visibility rule is
+  extracted into a pure `shouldShowFreeTierUpgrade` helper and unit-tested.
+  - mcp-use@1.32.2-canary.7
+
+## 10.0.2-canary.6
+
+### Patch Changes
+
+- mcp-use@1.32.2-canary.6
+
+## 10.0.2-canary.5
+
+### Patch Changes
+
+- mcp-use@1.32.2-canary.5
+
+## 10.0.2-canary.4
+
+### Patch Changes
+
+- Updated dependencies [b9324be]
+  - mcp-use@1.32.2-canary.4
+
+## 10.0.2-canary.3
+
+### Patch Changes
+
+- e1bcc3f: Read the inspector version from package.json so canary builds and CLI version output stay in sync.
+  - mcp-use@1.32.2-canary.3
+
+## 10.0.2-canary.2
+
+### Patch Changes
+
+- c62e103: Updated dependency `vite` to `^8.0.16`.
+- Updated dependencies [c62e103]
+  - mcp-use@1.32.2-canary.2
+
+## 10.0.2-canary.1
+
+### Patch Changes
+
+- mcp-use@1.32.2-canary.1
+
+## 10.0.2-canary.0
+
+### Patch Changes
+
+- Updated dependencies [c242a0c]
+  - mcp-use@1.32.2-canary.0
+
 ## 10.0.1
 
 ### Patch Changes

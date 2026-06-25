@@ -1,5 +1,78 @@
 # @mcp-use/cli
 
+## 3.5.3-canary.8
+
+### Patch Changes
+
+- Updated dependencies [bf90128]
+  - mcp-use@1.32.2-canary.8
+  - @mcp-use/inspector@10.0.2-canary.8
+
+## 3.5.3-canary.7
+
+### Patch Changes
+
+- Updated dependencies [37337f3]
+  - @mcp-use/inspector@10.0.2-canary.7
+  - mcp-use@1.32.2-canary.7
+
+## 3.5.3-canary.6
+
+### Patch Changes
+
+- d639509: `mcp-use deployments list` now preserves the deployment ordering returned by the API instead of re-sorting by creation date on the client. This keeps the displayed order consistent with the server's pagination and sort.
+  - mcp-use@1.32.2-canary.6
+  - @mcp-use/inspector@10.0.2-canary.6
+
+## 3.5.3-canary.5
+
+### Patch Changes
+
+- dfa7562: `mcp-use deploy` now surfaces the GitHub App installation URL up front when the app isn't connected or lacks repo access, before any prompt. In a non-interactive context (an agent or CI, without `--yes`) it prints the URL and clear next steps and exits cleanly instead of hanging on an unanswerable prompt.
+  - mcp-use@1.32.2-canary.5
+  - @mcp-use/inspector@10.0.2-canary.5
+
+## 3.5.3-canary.4
+
+### Patch Changes
+
+- Updated dependencies [b9324be]
+  - mcp-use@1.32.2-canary.4
+  - @mcp-use/inspector@10.0.2-canary.4
+
+## 3.5.3-canary.3
+
+### Patch Changes
+
+- Updated dependencies [e1bcc3f]
+  - @mcp-use/inspector@10.0.2-canary.3
+  - mcp-use@1.32.2-canary.3
+
+## 3.5.3-canary.2
+
+### Patch Changes
+
+- c62e103: Updated dependency `vite` to `^8.0.16`.
+- Updated dependencies [c62e103]
+  - @mcp-use/inspector@10.0.2-canary.2
+  - mcp-use@1.32.2-canary.2
+
+## 3.5.3-canary.1
+
+### Patch Changes
+
+- d962eab: Fix Codex skills installation to use `.agents/skills` instead of the unsupported `.agent/skills` path.
+  - mcp-use@1.32.2-canary.1
+  - @mcp-use/inspector@10.0.2-canary.1
+
+## 3.5.3-canary.0
+
+### Patch Changes
+
+- Updated dependencies [c242a0c]
+  - mcp-use@1.32.2-canary.0
+  - @mcp-use/inspector@10.0.2-canary.0
+
 ## 3.5.2
 
 ### Patch Changes
